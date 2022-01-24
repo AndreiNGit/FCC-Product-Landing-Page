@@ -1,6 +1,8 @@
 <html>
     <head>
-
+        <title>Presentation Page</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/6dbab72545.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -8,32 +10,116 @@
             <img src="" alt="" id="header-img">
             <nav id="nav-bar">
                 <a href="#div-features" class="nav-link">Features</a>
-                <a href="div-video" class="nav-link">How it works</a>
-                <a href="div-pricing" class="nav-link">Pricing</a>
-                <a href="div-form" class="nav-link">Contact Us</a>
+                <a href="#div-video" class="nav-link">How it works</a>
+                <a href="#div-pricing" class="nav-link">Pricing</a>
+                <a href="#div-form" class="nav-link">Contact Us</a>
             </nav>
         </header>
 
-        <div id="div-features">
-
-        </div>
-
-        <div id="div-video">
-            <h2 id="video-heading2">How it works?</h2>
-            <p id="video-p">Watch this video to see why it's important to have a well-made website</p>
-            <video src="https://www.youtube.com/watch?v=yP2zI-Em5lg" id="video"></video>
-        </div>
+        <div id="content">
+            <div id="div-features">
+                <h2>What are the benefits?</h2>
+                <div id="feature-wrapper">
+                    <div class="div-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <div class="feature-h">
+                            <h3>Experts in Web Development</h3>
+                        </div>
+                        <div class="feature-text">
+                            <p>We will make a very profesional website for your business</p>
+                        </div>
+                    </div>
+                    <div class="div-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-columns"></i>
+                        </div>
+                        <div class="feature-h">
+                            <h3>Responsive Design</h3>
+                        </div>
+                        <div class="feature-text">
+                            <p>Our responsive designs will make a better user experience for your customers</p>
+                        </div>
+                    </div>
+                    <div class="div-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="feature-h">
+                            <h3>Custom Code Websites</h3>
+                        </div>
+                        <div class="feature-text">
+                            <p>Our websites are made with custom code which brings a lot of benefits on the long term</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="div-video">
+                <h2 id="video-heading2">How it works?</h2>
+                <p id="video-p">Watch this video to see why it's important to have a well-made website</p>
+                <video src="src/video.mp4" id="video" controls></video>
+            </div>
+    
+            <div id="div-pricing">
+                <h2>What are our prices?</h2>
+                <div id="price-wrapper">
+                    <div class="div-price">
+                        <div class="price-h">
+                            <h3>Landing page</h3>
+                        </div>
+                        <div class="price-description">
+                            <p>A well made and responsive landing page for your business</p>
+                        </div>
+                        <div class="price-price">
+                            <p>300 Euro</p>
+                        </div>
+                    </div>
         
-        <div id="div-form">
-            <form action="" id="form">
-                <label for="email">Mail:</label>
-                <input type="email" name="email" id="email" placeholder="Enter your mail address">
-                <input type="submit" value="Submit" id="submit">
-            </form>
+                    <div class="div-price">
+                        <div class="price-h">
+                            <h3>Presentation Website</h3>
+                        </div>
+                        <div class="price-description">
+                            <p>Responsive presentation website for your business</p>
+                        </div>
+                        <div class="price-price">
+                            <p>800 Euro</p>
+                        </div>
+                    </div>
+        
+                    <div class="div-price">
+                        <div class="price-h">
+                            <h3>Online Store</h3>
+                        </div>
+                        <div class="price-description">
+                            <p>A well made ecommerce store with many automated functionalities</p>
+                        </div>
+                        <div class="price-price">
+                            <p>1200 Euro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="div-form">
+                <h2>Contact us</h2>
+                <p>Let us your mail so we can contact you for more info</p>
+                <form action="" id="form">
+                    <div class="form-mail">
+                        <label for="email">Mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your mail address">
+                    </div>
+                    <div class="form-submit">
+                        <input type="submit" value="Submit" id="submit">
+                    </div>
+                </form>
+            </div>
         </div>
         
         <footer id="footer">
-            
+            <p id="copy">Made with passion by Andrei N</p>
         </footer>
     </body>
 </html>
